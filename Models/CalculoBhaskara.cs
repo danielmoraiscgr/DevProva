@@ -3,7 +3,7 @@ namespace DevProva
 {
     public class CalculoBhaskara
     {
-        public double ResultadoCalculoBhaskara(int a, int b,int c)
+        public double ResultadoCalculoBhaskara(int a, int b, int c)
         {
 
             double delta = (b * b) - (4 * a * c);

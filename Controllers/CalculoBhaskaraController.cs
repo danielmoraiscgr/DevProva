@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace DevProva.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class CalculoBhaskaraController : ControllerBase
     {
 
@@ -16,7 +16,7 @@ namespace DevProva.Controllers
         public double Get()
         {
             CalculoBhaskara calculo = new CalculoBhaskara();
-            return calculo.ResultadoCalculoBhaskara(1, -5, 6); 
+            return calculo.ResultadoCalculoBhaskara(2, 2, 1); 
         }
         
 
