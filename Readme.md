@@ -3,6 +3,8 @@
 
 O projeto DevProva tem como objetivo principal gerar o resultado do cálculo da equação do segundo a partir da entrada de três parametros para achar o resultado de Delta e resultado se o número da idade informada é um número primo ou não. 
 
+***
+
 ### Cálculo de bhaskara.
 
 Os valores de entrada são: a , b e c: Por exemplo:  a=1, b=8 e c=-9, onde o resultado do método vai gerar x1 = 1 e x2 = -9 sendo que nesse caso, o valor retornado será o valor maior, sendo o x1. 
