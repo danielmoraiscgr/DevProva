@@ -13,10 +13,11 @@ namespace DevProva.Controllers
     {
 
         [HttpGet]
-        public double Get()
+        [Route("a={a:int},b={b:int},c={c:int}")]
+        public double Get(int a, int b, int c)
         {
             CalculoBhaskara calculo = new CalculoBhaskara();
-            return calculo.ResultadoCalculoBhaskara(2, 2, 1); 
+            return calculo.ResultadoCalculoBhaskara(a, b, c); 
         }
         
 

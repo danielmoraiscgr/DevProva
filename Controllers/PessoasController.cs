@@ -14,12 +14,13 @@ namespace DevProva.Controllers
     {
 
         [HttpGet]
-        public string Get()
+        [Route("idade={idade:int}")]
+        public string Get(string nome, int idade)
         {
            Pessoa pessoa = new Pessoa();
-           
-           pessoa.Nome = "Daniel Morais Borges";
-           pessoa.Idade = 49;
+
+            pessoa.Nome = "Daniel Morais";
+            pessoa.Idade = idade;
 
            return pessoa.VerificarNumeroPrimo(pessoa);
 
