@@ -1,6 +1,5 @@
 # Projeto DevProva - Cálculo fórmula de Bhaskara e números primos. 
 
-**
 
 O projeto DevProva tem como objetivo principal gerar o resultado do cálculo da equação do segundo a partir da entrada de três parametros para achar o resultado de Delta e resultado se o número da idade informada é um número primo ou não. 
 
@@ -14,7 +13,7 @@ Os resultados do cálculo de bhaskara que a API vai gerar são:
 2. Para situações do delta igual a zero, retorne o valor zero;
 3. Para situações do delta menor que zero, retorne o valor -1.
 
-**
+***
 
 ### Números primos.
 
@@ -23,3 +22,4 @@ Existe uma classe chamada Pessoa com o método VerificarNumeroPrimo que vai rece
 Exemplo: Quando informado o a idade 45 o retorno será "Não primo", caso informe a idade 5 o retorno será "Primo"
 
 
+***
