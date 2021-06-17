@@ -17,7 +17,7 @@ Os resultados do cálculo de bhaskara que a API vai gerar são:
 
 ***
 
-### Números primos.
+### Número primo.
 
 Existe uma classe chamada Pessoa com o método VerificarNumeroPrimo que vai receber a entrada do objeto e verifidar se a idade informada é um número primo ou não. 
 
