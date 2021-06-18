@@ -27,15 +27,16 @@ namespace DevProva.TestProject
         }
 
         [Theory]
-        [InlineData(45, "Não primo")]
-        [InlineData(38, "Não primo")]
-        [InlineData(5, "Primo")]
-        [InlineData(47, "Primo")]
-        public void VerificarNumeroPrimoIdadeTeste(int idade, string resultadoTeste)
+        [InlineData("Daniel", 45, "Não primo")]
+        [InlineData("Liene", 38, "Não primo")]
+        [InlineData("Beatriz", 5, "Primo")]
+        [InlineData("Juliene", 47, "Primo")]
+        public void VerificarNumeroPrimoIdadeTeste(string nome,int idade, string resultadoTeste)
         {
             // Arrange
 
             Pessoa pessoa = new Pessoa();
+            pessoa.Nome = nome;
             pessoa.Idade = idade;
 
             Mock<IPessoa> mock = new Mock<IPessoa>();
