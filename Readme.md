@@ -1,7 +1,7 @@
 # Projeto DevProva - Cálculo fórmula de Bhaskara e números primos. 
 
 
-O projeto DevProva tem como objetivo principal gerar o resultado do cálculo da equação do segundo a partir da entrada de três parametros para achar o resultado de Delta e resultado se o número da idade informada é um número primo ou não. 
+O projeto DevProva tem como objetivo principal gerar o resultado do cálculo da equação do segundo grau a partir da entrada de três parametros para achar o resultado de Delta e também se o número da idade informada da classe Pessoa é um número primo ou não. 
 
 ***
 
